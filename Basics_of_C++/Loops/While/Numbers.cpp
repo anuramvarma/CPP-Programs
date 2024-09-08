@@ -1,11 +1,13 @@
 #include<iostream>
-#include<cmath>
 using namespace std;
 int main()
 {
-  int count=1;
+  int count=0;
+  int n;
+  cout<<"Enter last Number You want : ";
+  cin>>n;
   cout<<"Numbers : ";
-  while(count<=10)
+  while(count<=n)
   {
     cout<<count<<" ";
     count++;
